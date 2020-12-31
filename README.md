@@ -1,7 +1,5 @@
-# cheatsheet
-Github Cheat Sheet
+# Github Cheat Sheet
 
-### Okay
 
 ### Git Revert to history of commit
 $ git revert --no-edit HEAD~20..
