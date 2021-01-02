@@ -1,6 +1,19 @@
 # Github Cheat Sheet
 
-
+Remote to Local
+open new Repot in Github
+<copy url>
+open new folder in Local
+  mkdir <name>
+Add remote Repo to Local folder - use fetch flag -f
+  $ git remote add -f <name> <Remote git url>
+Confirm remote added
+  $ git remote --v
+Check branch - always be on same branch as Remote usually main > main
+  $ git branch
+Push upstream Local to Remote
+  $ git push --set-upstream <name> <Remote branch>
+  
 ### Git Revert to history of commit
 $ git revert --no-edit HEAD~20..
 
