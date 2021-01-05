@@ -24,5 +24,5 @@ $ git revert --no-edit 97fe90437173f6a5c855263bc389e7f2e23bff61..HEAD
 $ git revert --no-edit HEAD~5..
 
 ### After revert action:
-$ git log // this to check new commit title
-$ git push //this to send to remote     
+$ git log // this to check new commit title  
+$ git push //this to send to remote  
