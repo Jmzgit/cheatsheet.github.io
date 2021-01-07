@@ -14,6 +14,15 @@ Check branch - always be on same branch as Remote usually main > main
 Push upstream Local to Remote  
   $ git push --set-upstream <name> <Remote branch>  
   
+Please specify which branch you want to merge with.  cn
+See git-pull(1) for details.  
+
+    $ git pull <remote> <branch>  
+    ex: git pull <remote branch> <local branch>  
+### If you wish to set tracking information for this branch you can do so with:  
+
+   $ git branch --set-upstream-to=<remote>/<branch> main  
+   ex:  git branch --set-upstream-to=<remote branch of remote repository>/<name of local branch>   
 ### Git Revert to history of commit
 $ git revert --no-edit HEAD~20..
 
