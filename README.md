@@ -1,6 +1,6 @@
 ####  Github Cheat Sheet
 ### Remote to Local
-### open new Repot in Github
+ open new Repot in Github
 <copy url>
   
 ### open new folder in Local    
