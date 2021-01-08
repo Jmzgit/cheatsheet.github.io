@@ -1,20 +1,20 @@
-# Github Cheat Sheet
+##  Github Cheat Sheet
 
-Remote to Local  
-open new Repot in Github  
+### Remote to Local  
+### open new Repot in Github  
 <copy url>  
-open new folder in Local  
+### open new folder in Local  
   $ mkdir <name>  
-Add remote Repo to Local folder - use fetch flag -f  
+### Add remote Repo to Local folder - use fetch flag -f  
   $ git remote add -f <name> <Remote git url>  
-Confirm remote added  
+### Confirm remote added  
   $ git remote --v  
-Check branch - always be on same branch as Remote usually main > main  
+### Check branch - always be on same branch as Remote usually main > main  
   $ git branch  
-Push upstream Local to Remote  
+### Push upstream Local to Remote  
   $ git push --set-upstream <name> <Remote branch>  
   
-Please specify which branch you want to merge with.  cn
+###  Please specify which branch you want to merge with.  cn
 See git-pull(1) for details.  
 
     $ git pull <remote> <branch>  
@@ -38,3 +38,4 @@ $ git push //this to send to remote
 
 ### In case their is a merge before the commit you wish to arrive to
 $ git revert --no-edit -m <steps back after merge> <hash>  
+    
