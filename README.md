@@ -23,8 +23,8 @@ See git-pull(1) for details.
     ex: git pull <remote branch> <local branch>  
 #### If you wish to set tracking information for this branch you can do so with:  
 
-   $ git branch --set-upstream-to=<remote>/<branch> main  
-   ex:  git branch --set-upstream-to=<remote branch of remote repository>/<name of local branch>  
+   $ git branch --set-upstream-to=&lt;remote&gt;/&lt;branch&lt; main  
+   ex:  git branch --set-upstream-to=&lt;remote branch of remote repository%gt;/&gt;name of local branch&lt;  
   
 #### Git Revert to history of commit
 $ git revert --no-edit HEAD~20..
