@@ -35,3 +35,6 @@ $ git revert --no-edit HEAD~5..
 ### After revert action:
 $ git log // this to check new commit title  
 $ git push //this to send to remote  
+
+### In case their is a merge before the commit you wish to arrive to
+$ git revert --no-edit -m <steps back after merge> <hash>  
