@@ -1,12 +1,14 @@
 ##  Github Cheat Sheet
-
-### Remote to Local  
-### open new Repot in Github  
-<copy url>  
-### open new folder in Local  
+### Remote to Local
+### open new Repot in Github
+<copy url>
+  
+### open new folder in Local    
   $ mkdir <name>  
-### Add remote Repo to Local folder - use fetch flag -f  
+  
+### Add remote Repo to Local folder - use fetch flag -f
   $ git remote add -f <name> <Remote git url>  
+  
 ### Confirm remote added  
   $ git remote --v  
 ### Check branch - always be on same branch as Remote usually main > main  
@@ -22,7 +24,8 @@ See git-pull(1) for details.
 ### If you wish to set tracking information for this branch you can do so with:  
 
    $ git branch --set-upstream-to=<remote>/<branch> main  
-   ex:  git branch --set-upstream-to=<remote branch of remote repository>/<name of local branch>   
+   ex:  git branch --set-upstream-to=<remote branch of remote repository>/<name of local branch>  
+  
 ### Git Revert to history of commit
 $ git revert --no-edit HEAD~20..
 
