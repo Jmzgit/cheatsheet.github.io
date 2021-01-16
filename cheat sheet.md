@@ -11,3 +11,10 @@ $ git revert --no-edit HEAD~5..
 ### Git remote force
 
 $ git remote add ok -f <remote url>
+
+### Ubuntu encrypt & decryption
+
+$ gpg -c <filename>
+
+$ gpg  <filename> 
+
