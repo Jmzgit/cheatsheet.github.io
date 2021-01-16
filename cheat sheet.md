@@ -16,5 +16,4 @@ $ git remote add ok -f <remote url>
 
 $ gpg -c <filename>
 
-$ gpg  <filename> 
-
+$ gpg  <filename>
