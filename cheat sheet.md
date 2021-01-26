@@ -9,16 +9,23 @@ Github Cheat Sheet
 
 #### open new folder in Local    
   $ mkdir <name>  
+  
+  #### initiate git tracking
+  $ git init
 
 #### Add remote Repo to Local folder - use fetch flag -f
   $ git remote add -f <name> <Remote git url>  
+  $ git remote add -f origin <remote url>
 
 #### Confirm remote added  
   $ git remote --v  
+  
 #### Check branch - always be on same branch as Remote usually main > main  
   $ git branch  
+  
 #### Push upstream Local to Remote  
   $ git push --set-upstream <name> <Remote branch>  
+  $ git push --set-upstream origin main    
 
 ####  Please specify which branch you want to merge with.  cn
 See git-pull(1) for details.  
@@ -64,3 +71,26 @@ $ git remote add ok -f <remote url>
 $ gpg -c <filename>
 
 $ gpg  <filename>
+#### To add text to existing file on cli  
+ $ cat >> <filename> 
+
+#### To open Atom editor on cli
+
+$ nano <filename>  
+
+#### Create file with cli editor
+$ nano  
+
+#### Escape cli text append
+ $ ctrl+C
+git checkout -b
+Check new branch
+git branch
+git add...
+git commit...
+Now add remote branch
+git remote add
+Now push to new remote
+git push
+Since no remote branch with name must add
+git push --set-upstream
