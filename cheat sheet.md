@@ -9,7 +9,7 @@ Github Cheat Sheet
 
 #### open new folder in Local    
   $ mkdir <name>  
-  
+
   #### initiate git tracking
   $ git init
 
@@ -19,10 +19,10 @@ Github Cheat Sheet
 
 #### Confirm remote added  
   $ git remote --v  
-  
+
 #### Check branch - always be on same branch as Remote usually main > main  
   $ git branch  
-  
+
 #### Push upstream Local to Remote  
   $ git push --set-upstream <name> <Remote branch>  
   $ git push --set-upstream origin main    
@@ -72,7 +72,7 @@ $ gpg -c <filename>
 
 $ gpg  <filename>
 #### To add text to existing file on cli  
- $ cat >> <filename> 
+ $ cat >> <filename>
 
 #### To open Atom editor on cli
 
@@ -83,14 +83,18 @@ $ nano
 
 #### Escape cli text append
  $ ctrl+C
-git checkout -b
-Check new branch
-git branch
-git add...
-git commit...
-Now add remote branch
-git remote add
-Now push to new remote
-git push
-Since no remote branch with name must add
-git push --set-upstream
+
+https://buddy.works/guides/first-steps-with-git
+
+#### Create branch
+git checkout -b  <name>
+#### Check new branch  
+git branch  
+git add...  
+git commit...  
+#### Now add remote branch  
+git remote add  <remote branch name origin?> <new branch name>
+#### Now push to new remote  
+git push  <new branch name>
+#### Since no remote branch with name must add  
+git push --set-upstream  
