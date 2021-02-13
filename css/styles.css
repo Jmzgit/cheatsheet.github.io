@@ -100,6 +100,7 @@ body {
 	position: relative;
 	width: 400px;
 
+
 }
 
 .hero-image .hero-image-container-2 img {
@@ -136,21 +137,25 @@ body {
 		position: relative;
 		width: 35%;
 		z-index: -1;
-	}
+		data-scroll-speed="-2"
+	} /* favicon */
 	.hero-image .hero-image-container-2 {
 		position: relative;
 		width: 40%;
 		z-index:-3;
+		data-scroll-speed="-1"
 	}
 	.hero-image .hero-image-container-3 {
 		position: relative;
 		width: 35%;
 		z-index: -1;
-	}
+		data-scroll-speed="-2"
+	} /* favicon */
 	.hero-image .hero-image-container-4 {
 		position: relative;
 		width: 40%;
 		z-index:-3;
+		data-scroll-speed="-1"
 	}
 }
 
