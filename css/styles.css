@@ -109,6 +109,20 @@ body {
 	right: 60px;
 
 }
+.hero-image .hero-image-container-3 {
+	
+	position: relative;
+	width: 400px;
+
+}
+
+.hero-image .hero-image-container-4 img {
+	width: 150px;
+	position: relative;
+	z-index:-3;
+	right: 60px;
+
+}
 
 @media (max-width: 900px) {
 	.header .header-container h1 {
