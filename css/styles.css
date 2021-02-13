@@ -135,19 +135,23 @@ body {
 	.hero-image .hero-image-container {
 		position: relative;
 		width: 35%;
+		z-index: -1;
 	}
 	.hero-image .hero-image-container-2 {
 		position: relative;
 		width: 40%;
+		z-index:-3;
 	}
 	.hero-image .hero-image-container-3 {
 		position: relative;
 		width: 35%;
+		z-index: -1;
 	}
 	.hero-image .hero-image-container-4 {
 		position: relative;
 		width: 40%;
-	} 
+		z-index:-3;
+	}
 }
 
 /* section-header */
