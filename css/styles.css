@@ -110,7 +110,7 @@ body {
 
 }
 .hero-image .hero-image-container-3 {
-	
+
 	position: relative;
 	width: 400px;
 
@@ -132,17 +132,22 @@ body {
 		margin-top: 40px;
 		position: absolute;
 	}
-	/*.hero-image .hero-image-container {
+	.hero-image .hero-image-container {
 		position: relative;
-		width: 75%;
-		z-index: -1;
+		width: 35%;
 	}
 	.hero-image .hero-image-container-2 {
 		position: relative;
 		width: 40%;
-		z-index:-3;
-
-	} */
+	}
+	.hero-image .hero-image-container-3 {
+		position: relative;
+		width: 35%;
+	}
+	.hero-image .hero-image-container-4 {
+		position: relative;
+		width: 40%;
+	} 
 }
 
 /* section-header */
