@@ -104,3 +104,6 @@ https://buddy.works/guides/first-steps-with-git
 
 #### Since no remote branch with name must add  
 	$ git push --set-upstream  
+
+#### URL Target highlight phrase in page 
+	https://4x4woodworking.com/?page_id=457//#:~:text=woodworking4x4%40gmail.com
