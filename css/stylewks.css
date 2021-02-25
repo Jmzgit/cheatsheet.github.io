@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+}
+/* RWD Mobile First - base styling */
+.nav {
+   margin: 0 15px;
+}
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+border-bottom: 1px solid #888;
+}
+
+/*  Link formatting */
+.nav li {
+  width: 17vw;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+}
+.nav a {
+   color: #000;
+   text-decoration: none;
+   font-variant: small-caps;
+   display: block;
+   transition: .3s background-color;
+}
+nav a:hover {
+  background-color: blue;
+}
+a.active {
+  background-color: red;
+  color: #444;
+}
