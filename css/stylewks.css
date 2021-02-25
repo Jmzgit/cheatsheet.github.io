@@ -22,8 +22,7 @@ body {
   width: 18vw;
   display: inline-block;
   font-family: 'Oswald', sans-serif;
-  font-size: 2em;
-  line-height: 40px;
+  font-size: 2.5em;
   height: 40px;
 }
 
@@ -55,9 +54,9 @@ a.active {
 ::selection {
   background: rgba(252, 200, 194,1);
 }
-
+/*
 @media (min-width: 700px) {
-   /*  Link formatting */
+
    .nav li {
      width: 18vw;
      display: inline-block;
@@ -71,4 +70,4 @@ a.active {
        border-radius: 10px;
    }
 
-}
+}*/
