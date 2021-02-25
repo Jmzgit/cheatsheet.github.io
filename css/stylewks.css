@@ -22,8 +22,12 @@ body {
   width: 18vw;
   display: inline-block;
   font-family: 'Oswald', sans-serif;
-  font-size: 2.5em;
+  font-size: 2em;
   height: 40px;
+}
+a:hover {
+  background-color: #fcc8c2;
+    border-radius: 10px;
 }
 
 .nav a {
