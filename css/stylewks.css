@@ -19,10 +19,10 @@ body {
 }
 /*  Link formatting */
 .nav li {
-  width: 17vw;
+  width: 18vw;
   display: inline-block;
   font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4em;
   line-height: 40px;
   height: 40px;
 }
@@ -37,6 +37,7 @@ a:hover {
   background-color: #fcc8c2;
     border-radius: 10px;
 }
+
 a.active {
    background-color: #fcc8c2;
      border-radius: 10px;
@@ -55,4 +56,17 @@ a.active {
 /* selction highlight color */
 ::selection {
   background: rgba(252, 200, 194,0.5); /* WebKit/Blink Browsers */
+}
+
+@media (min-width: 700px) {
+   /*  Link formatting */
+   .nav li {
+     width: 18vw;
+     display: inline-block;
+     font-family: 'Oswald', sans-serif;
+     font-size: 1.2em;
+     line-height: 40px;
+     height: 40px;
+   }
+
 }
