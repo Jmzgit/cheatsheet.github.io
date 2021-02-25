@@ -3,9 +3,11 @@ body {
   padding: 0;
   background: #f8f9fa;
 }
+
 /* RWD Mobile First - base styling */
 .nav {
-   margin: 0 15px;
+   margin: 5px 15px;
+
 }
 .nav ul {
   list-style: none;
@@ -13,9 +15,8 @@ body {
   padding: 0;
   margin: 0;
   text-decoration: none;
-border-bottom: 1px solid #000;
-}
 
+}
 /*  Link formatting */
 .nav li {
   width: 17vw;
@@ -36,6 +37,23 @@ nav a:hover {
   background-color: blue;
 }
 a.active {
-  background-color: red;
+  background-color: #fcc8c2;
   color: #444;
+  border-radius: 15px;
+  border-width: .5rem;
+}
+.myMain {
+   margin: 0 auto;
+}
+.myMain h1, p{
+   list-style: none;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+
+}
+/* selction highlight color */
+::selection {
+  background: rgba(252, 200, 194,0.5); /* WebKit/Blink Browsers */
 }
