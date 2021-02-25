@@ -17,31 +17,31 @@ body {
   text-decoration: none;
 
 }
-/*  Link formatting */
+/*  typography formatting */
 .nav li {
-  width: 18vw;
+  width: 15vw;
   display: inline-block;
   font-family: 'Oswald', sans-serif;
-  font-size: 2em;
+  font-size: 1.2rem;
+  line-height: 40px;
+  padding: 0 15px;
   height: 40px;
 }
-a:hover {
-  background-color: #fcc8c2;
-    border-radius: 10px;
-}
-
 .nav a {
    color: #000;
    text-decoration: none;
    font-variant: small-caps;
    display: block;
-   transition: .3s background-color; /* transition highlight */
+  transition: .3s background-color;
+  border-radius: 10px;
 }
-
-
-a.active {
+.nav a:hover {
+  background-color: #fcc8c2;
+}
+.nav a.active {
    background-color: #fcc8c2;
-     border-radius: 10px;
+   border-radius: 10px;
+   cursor: default
 }
 .myMain {
    margin: 0 auto;
