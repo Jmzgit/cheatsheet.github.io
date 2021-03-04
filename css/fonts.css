@@ -1,0 +1,6 @@
+@font-face {
+   font-family: "GeosansLight-Regular";
+   src: url("/home/aj/Documents/fonts/Retroica Webkit/geosanslight-webfont.woff")
+   format("woff"),
+      url('GeosansLight.ttf') format('truetype');
+}
