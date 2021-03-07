@@ -1,0 +1,27 @@
+.container {
+   display:flex;
+   background-color: DodgerBlue;
+   align-items: center;
+   
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.container div {
+   background-color: #f1f1f1;
+   width:48%;
+   height: 7vh;
+   margin: 10px 2px;
+   text-align: center;
+   font-size: 16px;
+}
+.container div:nth-child(1) {
+  background: purple;
+  color: #fff
+}
+.container div:nth-child(2) {
+  background: pink;
+}.container div:nth-child(3) {
+  background: lightgreen;
+}.container div:nth-child(4) {
+  background: #aaa;
+}

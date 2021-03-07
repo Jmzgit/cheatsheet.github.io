@@ -1,0 +1,37 @@
+.container {
+   display:flex;
+   background-color: DodgerBlue;
+   align-items: stretch;
+   flex-direction: row;
+   border-radius: .5rem 0 ;
+   height: 30vh;
+}
+.container div {
+   background-color: #f1f1f1;
+   width:24%;
+   height: 24%;
+   margin: 10px;
+   line-height: 75px;
+   text-align: center;
+   font-size: 16px;
+   border-radius: 1.5rem 0;
+}
+.container div:nth-child(1) {
+  background: purple;
+  position: relative;
+  color: #fff;
+  order: 2;
+  flex-basis: 200px;
+  height: 24%;
+
+  align-self: center;
+}
+.container div:nth-child(2) {
+  background: pink;
+  order:3;
+  align-self: flex-end;
+
+}.container div:nth-child(3) {
+  background: lightgreen;
+  order:1;
+}
