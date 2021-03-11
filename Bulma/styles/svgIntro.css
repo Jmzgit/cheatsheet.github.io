@@ -1,0 +1,25 @@
+.mySVG {
+   display: flex;
+   height: 40vh;
+   margin: 50% auto;
+   background-color: rgba(153, 102, 255, 0.8);
+   clip-path: polygon(100% 0%, 100% 100%,0% 100%);
+   z-index: -1;
+}
+
+body {
+
+
+}
+div> h1{
+   margin: auto;
+   font-size: 200%;
+}
+
+.male {
+   margin: auto;
+   height: auto ;
+
+}
+
+/* https://danmarshall.github.io/google-font-to-svg-path/*/

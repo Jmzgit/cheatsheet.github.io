@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-MX" dir="ltr">
+   <head>
+      <meta charset="utf-8">      <!-- en-US   -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title></title>
+   <style media="screen">
+      * {
+   height: 5rem;
+   width: auto;
+   text-align: center;
+   font-size:1.4rem;
+      }
+      .fruit-box {
+  display: grid;
+  width:75%;
+  margin: auto;
+  grid-gap: 12px;
+  grid-template-columns:
+    [left] 1fr
+    [middle1] 1fr
+    [middle2] 1fr
+    [right];
+
+}
+.apple {
+   background-color:  lightgreen;
+   grid-column:left / middle1;
+}
+.mango {
+   background-color: yellow;
+   grid-column:middle1 / middle2;
+}
+.kiwi {
+   background-color: lightblue;
+   grid-column: right / middle2;
+}
+.orange {
+  background: orange;
+  grid-column: left / right;
+}
+   </style>
+   </head>
+   <body>
+<div class="fruit-box">
+
+   <div class="apple">apple</div>
+   <div class="mango">mango</div>
+   <div class="kiwi">kiwi</div>
+   <div class="orange">orange</div>
+</div>
+
+
+
+   </body>
+</html>

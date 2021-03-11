@@ -1,7 +1,11 @@
 .container {
-  border: 5px solid #ffcc5c;
-display:flex;
-flex-direction: column;
-flex-basis: 55%;
-flex-wrap: wrap;
-}
+   border: 5px solid #ffcc5c;
+   display:flex;
+
+   flex-direction: row;
+   }
+
+.home {
+   flex: 1;
+   }
+
