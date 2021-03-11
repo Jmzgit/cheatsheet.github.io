@@ -6,7 +6,7 @@
       <title></title>
    <style media="screen">
       * {
-   height: 5rem;
+   height: 6rem;
    width: auto;
    text-align: center;
    font-size:1.4rem;
@@ -14,17 +14,18 @@
       .fruit-box {
   display: grid;
   width:75%;
+  padding:5%;
   margin: auto;
-  grid-gap: 12px;
+  grid-gap: 1rem;
   grid-template-columns:
     [left] 1fr
     [middle1] 1fr
     [middle2] 1fr
     [right];
-
+   border: 1px solid;
 }
 .apple {
-   background-color:  lightgreen;
+   background-color:  pink;
    grid-column:left / middle1;
 }
 .mango {
@@ -32,8 +33,8 @@
    grid-column:middle1 / middle2;
 }
 .kiwi {
-   background-color: lightblue;
-   grid-column: right / middle2;
+   background-color: lightgreen;
+   grid-column: middle2 / right;
 }
 .orange {
   background: orange;
